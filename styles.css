@@ -191,6 +191,15 @@ h1 {
   color: var(--green);
 }
 
+.kicker {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(19px, 2.2vw, 23px);
+  color: var(--clay);
+  margin: 26px 0 0;
+}
+
 section + section { margin-top: 64px; }
 
 h2 {
